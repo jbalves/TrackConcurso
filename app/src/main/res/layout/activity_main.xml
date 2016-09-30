@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+    <Button
+        android:id="@+id/ufam"
+        android:text="UFAM"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:background="#00E676"
+        android:layout_weight="1"
+        android:onClick="abreDisciplinas"/>
+
+    <Button
+        android:text="TRT-AM"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFEB3B"
+        android:layout_weight="1"/>
+
+    <Button
+        android:text="INSS"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FFF9C4"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
